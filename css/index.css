@@ -176,7 +176,8 @@ border:1px solid transparent;
 main div{
 width:80%;
 border-bottom:1px solid #fafafa;
-padding-left:10%; 
+margin-right:10%; 
+margin-left: 10%;
 }
 @media (max-width:500px){
 .words{
