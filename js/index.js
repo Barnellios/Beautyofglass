@@ -7,3 +7,4 @@ function setOldImage(){
 document.getElementById("img1").src 
 = "img/jana_dark.jpg";
 }
+
