@@ -3,6 +3,7 @@
 :root{
     font-family: 'Playfair Display' , sans-serif;
     --main-color: black;
+    scroll-behavior: smooth;
 }
 body{
   margin:0;  
@@ -272,9 +273,9 @@ main .product-list .product-card img {
 }
 
 .product-list{
-padding-left:60px;
-padding: 40px;
+padding: 5% 15% 5% 15%;
 color:#fafafa;
+max-width:960px;
 }
 
 .product-card .jana{
@@ -282,19 +283,19 @@ margin-left:45%;
 }
 
 .product-card .julia{
-margin-left:50%;
+margin-left:45%;
 }
 
 .product-card .monika{
-margin-left:45%;
+margin-left:40%;
 }
 
 .product-card .rose{
-margin-left:30%;
+margin-left:20%;
 }
 
 .product-card .sea{
-margin-left:45%;
+margin-left:40%;
 }
 
 
@@ -312,28 +313,43 @@ margin-left:45%;
     }
 }
 
-
-/*main .products .product-card .product-image{
-  width:100%;
-  display:block;  
+main .dark{
+width:80%;
+border: 0.7px solid #000000;
+margin-right:10%; 
+margin-left: 10%;
+margin-top:-10px;
 }
 
-main h3{
-  color:#fafafa;  
+main .light-product-list h3{
+margin-left: 35%;
 }
 
-@media(min-width:500px){
-    .products{
-      display: grid;
-      grid-template-columns: 1fr 1fr; 
-      grid-gap:10px; 
+main .light-product-list .light-product-card img {
+    width: 100%;
+    display: block;
+}
+
+.light-product-list{
+padding: 5% 15% 2% 15%;
+max-width:1000px;
+color:#0a0a0a;
+background-color: #fafafa;
+}
+
+@media (min-width: 500px) {
+    .light-product-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 15px;
     }
 }
 
-
-
-
-
+@media (min-width: 960px) {
+    .light-product-list {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
 
 
 
