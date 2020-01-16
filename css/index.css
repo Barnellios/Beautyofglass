@@ -145,6 +145,7 @@ background-image: url(../img/hydrangeeheader.jpg);
 header .menu{
     flex:1;
 }
+
 .banner h1{
    color:#fff;
    font-family: Arial, Helvetica, sans-serif;
@@ -155,6 +156,7 @@ header .menu{
    animation-timing-function:linear;
    opacity:1;
 }
+
 @keyframes text{
 0%{
    opacity:0;     
@@ -179,24 +181,29 @@ header .menu{
    color:#fff;
    font-family: Arial, Helvetica, sans-serif;
    font-size:24px;
-   font-weight: normal;
+   font-weight: lighter;
    margin-top:-10px;
    margin-bottom: 220px;
 }
 main {
-    background-color: #000000;
     width:100%;
-    margin-top:-22px ;
+    margin-top:-30px ;
+    height:5000px;
+    background-color: #fafafa;
 }
+/*@media (min-width){
+    main{}
+}
+*/
 .words{
     color:#fafafa;
-    height: 200px;
-    width:60%;
+    background-color: #000000;
+    height: 300px;
+    width:100%;
+    padding:20% 20% 20% 25%;
     font-size: 34px;
-    margin:0 15% 0 23% ;
     padding-top:80px;
     border:1px solid transparent;
-    padding-bottom:5%;
 }
 
 
@@ -226,6 +233,7 @@ padding-top:100px;
 @media (min-width:1080px){
 main .light{
 padding-top:10px;
+margin-top:-40px;
 }
 }
 
@@ -267,7 +275,130 @@ padding-top:10px;
         transform: rotate(45deg) translate(20px,20px);
     }
     }
-main .product-list .product-card img {
+    .card-group{
+      margin-top:-5px; 
+      color:#fafafa;
+      background-color:#000000;
+      padding: 5% 2% 5% 5%;
+      max-width:100%;
+    }
+
+    .card{
+       background-color:#000000; 
+    }
+    .card-title{
+        margin-left:45%;
+    }
+
+    #monika{
+    margin-left:40%;
+    }
+
+    #rose{
+    margin-left:20%;
+    }
+    #sea{
+    margin-left:40%;
+    }    
+
+@media (min-width: 500px) {
+    .card-group {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+  
+    }}
+@media (min-width: 960px) {
+    .card-group {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+  .card-group-white{
+      margin-top:15px; 
+      color:#000000;
+      background-color:#fafafa;
+      padding: 5% 10% 5% 10%;
+      max-width:100%;
+    }
+
+    .card-white{
+       background-color:#fafafa; 
+    }
+    .card-title{
+        margin-left:45%;
+    }
+
+    #hydrangee{
+    margin-left:37%;
+    }
+
+    #afina{
+    margin-left:40%;
+    }
+    #chamomile{
+    margin-left:40%;
+    }  
+
+    #maya{
+    margin-left:40%;
+    }  
+    main .dark {
+    width:80%;
+    border: 0.5px solid #000000;
+    margin-right:10%; 
+    background-color: #000000;
+    margin-left: 10%;
+    margin-top:100px;
+    margin-bottom:40px;
+    }
+
+ @media (min-width: 500px) {
+    .card-group-white {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap:20px;
+    }}
+
+@media (min-width: 960px) {
+    .card-group-white {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap:10px;
+    }
+}
+main h1{
+    text-align: center;
+    margin-top:10%;
+}
+#Bgc{
+background-color: #fafafa;
+color: #000000;
+margin-top:50px;
+}
+
+.card-item{
+background-color: #fafafa;
+}
+.card-text-item{
+  text-align:center;  
+}
+
+ .card-img-list-item{
+     width:100px;
+     height:100px;
+     margin-left:40%;
+ }   
+#align{
+  margin-left: 100px;  
+}
+
+.insta{
+color:#005dff;
+}
+
+#carouselProducts{
+  margin-top:5%;  
+}
+
+/*main .product-list .product-card img {
     width: 100%;
     display: block;
 }
@@ -285,20 +416,6 @@ margin-left:45%;
 .product-card .julia{
 margin-left:45%;
 }
-
-.product-card .monika{
-margin-left:40%;
-}
-
-.product-card .rose{
-margin-left:20%;
-}
-
-.product-card .sea{
-margin-left:40%;
-}
-
-
 @media (min-width: 500px) {
     .product-list {
         display: grid;
