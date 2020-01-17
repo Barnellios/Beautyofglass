@@ -188,7 +188,7 @@ header .menu{
 main {
     width:100%;
     margin-top:-30px ;
-    height:6000px;
+    height:5500px;
     background-color: #fafafa;
 }
 /*@media (min-width){
@@ -389,7 +389,9 @@ background-color: #fafafa;
 #align{
   margin-left: 100px;  
 }
-
+#aligner{
+  margin-left:20px;  
+}
 .insta{
 color:#005dff;
 }
@@ -415,6 +417,31 @@ main p{
 .font-weight-bold{
  padding:2% 10% 0% 10%;
 }
+footer{
+   background-color: #000000; 
+   height:10%;
+}
+footer h1{
+    color:#fff;
+    padding-top: 55px;
+}
+footer h2{
+  margin: 10px 0 5px 0;  
+  color:#fff;
+  font-weight:lighter;
+}
+#alignfooter{
+   margin-top:8%;  
+}
+
+footer p{
+   max-width:960px;
+   margin-left:13%;
+   color:#fff;
+   text-align: center; 
+   margin-bottom:10%;
+}
+
 /*main .product-list .product-card img {
     width: 100%;
     display: block;
