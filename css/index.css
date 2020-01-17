@@ -188,7 +188,7 @@ header .menu{
 main {
     width:100%;
     margin-top:-30px ;
-    height:5000px;
+    height:6000px;
     background-color: #fafafa;
 }
 /*@media (min-width){
@@ -279,7 +279,7 @@ margin-top:-40px;
       margin-top:-5px; 
       color:#fafafa;
       background-color:#000000;
-      padding: 5% 2% 5% 5%;
+      padding: 5% 10% 5% 10%;
       max-width:100%;
     }
 
@@ -397,7 +397,24 @@ color:#005dff;
 #carouselProducts{
   margin-top:5%;  
 }
+ main h2{
+text-align:center;
+margin-top:8%;
+margin-bottom:5%;
+}
 
+main p{
+  width:100%;
+  padding:5% 10% 0% 10%;  
+}
+
+.font-weight-light{
+ padding:2% 10% 0% 10%;  
+}
+
+.font-weight-bold{
+ padding:2% 10% 0% 10%;
+}
 /*main .product-list .product-card img {
     width: 100%;
     display: block;
