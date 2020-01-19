@@ -10,6 +10,40 @@
 </head>
 <body>
     <header>
+<nav class="navbar navbar-light light-blue lighten-4">
+
+  <a class="navbar-brand" href="#">Your opportunities</a>
+
+  <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
+    aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span class="dark-blue-text"><i
+        class="fas fa-bars fa-1x"></i></span></button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a  class="nav-link" href="#">Вази <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a href="https://beautyofglass.com/weddingglasses" class="nav-link" href="#">Весільні келихи</a>
+      </li>
+      <li class="nav-item">
+        <a  href="https://beautyofglass.com/undecorated_glass" class="nav-link" href="#">Недекороване скло</a>
+      </li>
+      <li class="nav-item">
+        <a href="https://beautyofglass.com/quality" class="nav-link" href="#">Якість</a>
+      </li>
+      <li class="nav-item">
+        <a href="https://beautyofglass.com/collaboration" class="nav-link" href="#">Співпраця</a>
+      </li>
+      <li class="nav-item">
+        <a href="https://beautyofglass.com/for_foreign" class="nav-link" href="#">For foreign</a>
+      </li>
+    </ul>
+
+  </div>
+
+</nav>
         <div class="banner">
             <h1 id="text">BEAUTY OF GLASS</h1>
             <h3>Оцініть красу скла ручної роботи</h3>
@@ -17,23 +51,7 @@
             <span></span>
             </div>  
         </div>
-        <nav>
-            <div class="hamburger-menu">
-                <input id="menu__toggle" type="checkbox" />
-                <label class="menu__btn" for="menu__toggle">
-                    <span></span>
-                </label>
-
-                <ul class="menu__box">
-                    <li><a class="menu__item" href="#">Вази</a></li>
-                    <li><a class="menu__item" href="#">Весільні келихи</a></li>
-                    <li><a class="menu__item" href="#">Недекороване скло</a></li>
-                    <li><a class="menu__item" href="#">Якість</a></li>
-                    <li><a class="menu__item" href="#">Співпраця</a></li>
-                    <li><a class="menu__item" href="#">For foreign</a></li>
-                </ul>
-            </div>
-        </nav>
+        
     </header>
     <main>
         <p class="words">Ми створюємо різноманітні дизайни ваз для того, щоб кожен з вас знайшов ідеальний варіант для себе.
@@ -41,42 +59,42 @@
         </p>
         <div class="card-group">
         <div class="card">
-            <a><img src="img/jana_dark.jpg" id="jana" onmouseover="setNewImage()" onmouseout="setOldImage()" class="card-img-top" alt="Яна"></a>
+            <a href="https://beautyofglass.com/yana"><img src="img/jana_dark.jpg" id="jana" onmouseover="setNewImage()" onmouseout="setOldImage()" class="card-img-top" alt="Яна"></a>
             <div class="card-body">
                  <h5 class="card-title">Яна</h5>
              </div>
         </div>
 
         <div class="card">
-            <a><img src="img/julia_dark.jpg" id="julia" onmouseover="setNewJulia()" onmouseout="setOldJulia()" class="card-img-top" alt="Юлія"></a>
+            <a href="https://beautyofglass.com/julia"><img src="img/julia_dark.jpg" id="julia" onmouseover="setNewJulia()" onmouseout="setOldJulia()" class="card-img-top" alt="Юлія"></a>
         <div class="card-body">
             <h5 class="card-title">Юлія</h5>
         </div>    
      </div>
 
     <div class="card">
-         <a><img src="img/monika_dark.jpg" class="card-img-top" alt="Моніка"></a>
+         <a href="https://beautyofglass.com/monika"><img src="img/monika_dark.jpg" id="monik" onmouseover="setNewMonika()" onmouseout="setOldMonika()" class="card-img-top" alt="Моніка"></a>
         <div class="card-body">
             <h5 id="monika" class="card-title">Моніка</h5>
         </div>
     </div>
 
     <div class="card">
-         <a><img src="img/peachy_rose_dark.jpg" class="card-img-top" alt="Троянда персикова"></a>
+         <a href="https://beautyofglass.com/peachy_rose"><img src="img/peachy_rose_dark.jpg" id="peachy" onmouseover="setNewRose()" onmouseout="setOldRose()" class="card-img-top" alt="Троянда персикова"></a>
         <div class="card-body">
             <h5 id="rose" class="card-title">Троянда персикова</h5>
         </div>
     </div>
 
     <div class="card">
-         <a><img src="img/seashell_dark.jpg" class="card-img-top" alt="Моніка"></a>
+         <a href="https://beautyofglass.com/seashell"><img src="img/seashell_dark.jpg"  id="seashell" onmouseover="setNewSea()" onmouseout="setOldSea()" class="card-img-top" alt="Ракушка"></a>
         <div class="card-body">
             <h5 id="sea" class="card-title">Ракушка</h5>
         </div>
     </div>
 
     <div class="card">
-         <a><img src="img/edit.jpg" class="card-img-top" alt="Моніка"></a>
+         <a><img src="img/edit.jpg" class="card-img-top" id="edit" onmouseover="setNewEdit()" onmouseout="setOldEdit()" alt="Едіт"></a>
         <div class="card-body">
             <h5 class="card-title">Едіт</h5>
         </div>
@@ -189,13 +207,13 @@
         <footer>
             <h1>Зв'язатись з нами:</h1>
             <h2 id="alignfooter">+380974583959</h2>
-            <h2>Myfuturesite@gmail.com</h2>
+            <h2 >Myfuturesite@gmail.com</h2>
             <p class="text">На рахунок усіх питань для замовлення зв'яжіться з нами по телефону, поштою або у соцмережах, всі данні на головній сторінці</p></br>
             <div class="Insta_logo">
-                <div class="big_square">
-                <div class="center_square"></div>
-                <div class="logo_dot"></div>
-                </div>
+               <a href="https://www.instagram.com/beautyofglass_store/"> <div class="big_square">
+                <div   class="center_square"></div>
+                <div id="ficha" onmouseover="bug()" class="logo_dot"></div>
+                </a></div>
             </div>        
         </footer>
     </main> 
