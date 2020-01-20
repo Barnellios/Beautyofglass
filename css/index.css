@@ -353,6 +353,8 @@ main p{
 footer{
    background-color: #000000; 
    height:13%;
+   width:100%;
+   text-align: center;
 }
 footer h1{
     color:#fff;
